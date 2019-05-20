@@ -1,12 +1,17 @@
 header{
 	min-height: 100vh;
-	padding: 150px;
+	padding: 15vh 15vw;
 }
 
 header h1{
-	padding: 25vh;
+	padding-top: 30vh;
 }
 
 section{
-	padding: 150px;
+	padding: 15vh 15vw;
+}
+
+footer{
+	padding-left: 15vw;
+	padding-right: 15vw;
 }
