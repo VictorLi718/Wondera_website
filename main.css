@@ -1,0 +1,12 @@
+header{
+	min-height: 100vh;
+	padding: 150px;
+}
+
+header h1{
+	padding: 25vh;
+}
+
+section{
+	padding: 150px;
+}
