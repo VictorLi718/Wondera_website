@@ -12,6 +12,14 @@ section{
 }
 
 footer{
-	padding-left: 15vw;
-	padding-right: 15vw;
+	padding: 5vh 15vw;
+}
+
+.dropdown{
+	display: inline-block;
+	padding: 10px 20px;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;    
 }
