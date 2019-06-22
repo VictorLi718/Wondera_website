@@ -20,6 +20,8 @@ footer{
 	padding: 10px 10px;
 }
 
-.dropdown:hover > .dropdown-menu {
-    display: block;    
+@media screen and (min-width: 768px) {
+	.dropdown:hover>.dropdown-menu {
+		display: block;
+	}
 }
