@@ -1,10 +1,23 @@
+body{
+	font-family: Avenir;
+}
+
+nav{
+	background: rgba(204, 204, 204, 0.2);
+}
+
 header{
 	min-height: 100vh;
 	padding: 15vh 15vw;
+	background-image: url("./pic/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 header h1{
 	padding-top: 30vh;
+	font-size: 4rem;
 }
 
 section{
