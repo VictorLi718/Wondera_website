@@ -9,10 +9,11 @@ nav{
 header{
 	min-height: 100vh;
 	padding: 15vh 15vw;
-	background-image: url("./pic/background.jpg");
-	background-repeat: no-repeat;
+	background: url("./pic/background.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+	 -o-background-size: cover;
 	background-size: cover;
-	background-attachment: fixed;
 }
 
 header h1{
