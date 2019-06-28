@@ -28,23 +28,40 @@ section{
 	font-size: 25px;
 }
 
-footer{
-	padding: 5vh 15vw;
-}
 
 #intention{
 	padding: 5vh 5vw;
 }
 
-#carouselExampleControls{
+#carouselExampleIndicators{
 	padding: 15vh 10vw;
 	font-size: 1.5rem;
 }
 
+
+#contact{
+	padding: 5vh 15vw;
+	background: rgb(6, 177, 169);
+}
+
+
+#copyright{
+	padding: 5vh 15vw;
+	background: rgb(243, 141, 0);
+}
+
 .dropdown{
 	display: inline-block;
-	padding: 10px 10px;
+	margin: 20px 2vw;
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: rgb(243, 141, 0);
 }
+/*
+.dropdown button{
+	background-color: rgb(243, 141, 0);
+	border: none;
+}*/
 
 @media screen and (min-width: 768px) {
 	.dropdown:hover>.dropdown-menu {
