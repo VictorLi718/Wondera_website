@@ -211,8 +211,8 @@
       var width = $(window).width();
       width /= 1.5;
       var delta = $('#course')[0].getBoundingClientRect().top + 100;
-      if (delta > 0) delta = 1 + delta/width;
-      else delta = 1
+      delta = 1 + delta/width;
+      if(delta > 3 || delta < 1) delta = 1
       $(".dropdown button").css({
         transform: 'scale(' + delta + ')',
         "opacity": 2 - delta
