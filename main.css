@@ -6,27 +6,23 @@ nav{
 	background: rgba(204, 204, 204, 0.4);
 }
 
-@media screen and (min-width: 769px) {
-	header{
-		min-height: 100vh;
-		padding: 20vh 10vw;
-		background: url("./pic/background.jpg") no-repeat center center fixed; 
-	  	-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-		 -o-background-size: cover;
-		background-size: cover;
-	} 
-}
+
+header{
+	min-height: 100vh;
+	padding: 20vh 10vw;
+	background: url("./pic/background.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+	 -o-background-size: cover;
+	background-size: cover;
+} 
+
 
 @media screen and (max-width: 768px) {
 	header{
 		min-height: 100vh;
 		padding: 20vh 10vw;
 		background: url("./pic/background_small.jpg") no-repeat center center fixed; 
-		-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
 	}
 }
 
