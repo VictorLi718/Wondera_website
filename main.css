@@ -23,7 +23,7 @@ nav{
 	header{
 		min-height: 100vh;
 		padding: 20vh 10vw;
-		background: url("./pic/background_small.jpg") no-repeat center center fixed; 
+		background: url("./pic/background_small.jpg") fixed; 
 		-webkit-background-size: cover;
 	  	-moz-background-size: cover;
 		 -o-background-size: cover;
