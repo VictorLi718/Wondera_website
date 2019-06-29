@@ -16,7 +16,7 @@ header{
 	background-size: cover;
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 	header{
 		background: url("./pic/background_small.jpg") no-repeat center center fixed; 
 	}
