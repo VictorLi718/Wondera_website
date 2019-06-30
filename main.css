@@ -1,5 +1,5 @@
 body{
-	font-family: Avenir;
+	font-family: PingFang SC;
 }
 
 nav{
@@ -26,9 +26,24 @@ header img{
 		padding: 20vh 10vw;
 		background: url("./pic/background_small.jpg") fixed; 
 	}
-
 	header img{
 		width: 100%;
+	}
+	#course_mobile{
+		display: block;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#course{
+		background: url("./pic/course_desktop.jpg") no-repeat center center; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+		 -o-background-size: cover;
+		background-size: cover;
+	}
+	#course_mobile{
+		display: none;
 	}
 }
 
