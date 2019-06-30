@@ -53,7 +53,7 @@ header h1{
 }
 
 section{
-	padding: 15vh 15vw;
+	padding: 25vh 15vw;
 	min-height: 90vh;
 	text-align: center;
 	font-size: 25px;
@@ -61,7 +61,11 @@ section{
 
 
 #intention{
-	padding: 5vh 5vw;
+	padding: 20vh 5vw;
+}
+
+#course{
+	padding: 10vh 15vw;
 }
 
 #carouselExampleIndicators{
@@ -71,7 +75,7 @@ section{
 
 
 #contact{
-	padding: 5vh 15vw;
+	padding: 5vh 5vw 0 5vw;
 	background: rgb(6, 177, 169);
 }
 
